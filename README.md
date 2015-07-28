@@ -1,5 +1,11 @@
 # Renumber
-command line utility that saves me a lot of typing, but not very frequently.
+Command line utility that saves me a lot of typing, but not very frequently. Probably only works on Linux.
+
+compile with
+
+  ghc --make Renumber.hs -o renumber
+
+and copy the executable into /usr/local/bin, or somewhere else in your $PATH
 
 If you have a bunch of files whose names begin with two digit numeric identifiers,
 this program will renumber them in order. For example, if I have a directory
